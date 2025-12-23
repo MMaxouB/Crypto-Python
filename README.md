@@ -1,9 +1,15 @@
-# Crypto-Python
+# Crypto-Python 🔒
 
-Crypto-Python est un projet pédagogique en Python pour explorer différents types de chiffrement et déchiffrement de textes. Le projet est organisé en trois niveaux de difficulté, allant des chiffrements simples aux méthodes plus avancées. Il inclut également des outils utilitaires pour faciliter la manipulation de fichiers et du texte.
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/) 
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) 
+[![GitHub stars](https://img.shields.io/github/stars/votre-utilisateur/Crypto-Python?style=social)](https://github.com/votre-utilisateur/Crypto-Python/stargazers)
 
-## Structure du projet
+Crypto-Python est un projet pédagogique en Python pour explorer différents types de chiffrement et déchiffrement de textes. Le projet propose trois niveaux de difficulté, allant des chiffrements simples aux méthodes plus avancées. Il inclut également des outils utilitaires pour faciliter la manipulation de fichiers et du texte.
 
+---
+
+## 📁 Structure du projet
+```
 Crypto-Python/
 │
 ├── README.md
@@ -19,11 +25,10 @@ Crypto-Python/
 │
 ├── utils/ # Fonctions utilitaires communes
 └── tests/ # Tests unitaires pour chaque niveau
+```
+---
 
-markdown
-Copier le code
-
-## Niveaux de chiffrement
+## 🛡️ Niveaux de chiffrement
 
 ### Niveau 1 : Chiffrements simples
 - **César** : Décalage fixe des lettres du texte.
@@ -37,40 +42,40 @@ Copier le code
 - **XOR** : Chiffrement binaire par opération XOR avec une clé.
 - **Block cipher simplifié** : Chiffrement par blocs inspiré d’AES (simplifié pour l’apprentissage).
 
-## Utilitaires
+---
+
+## 🧰 Utilitaires
+
 - **file_handler.py** : Lecture et écriture de fichiers.
 - **text_utils.py** : Fonctions communes sur texte (nettoyage, conversion en majuscules, etc.).
 
-## Utilisation
+---
+
+## 🚀 Utilisation
 
 1. Placer vos fichiers texte à chiffrer dans le dossier `inputs/`.
-2. Exécuter le script correspondant au chiffrement choisi, par exemple :
+2. Exécuter le script correspondant au chiffrement choisi, par exemple :
 
 ```bash
 python niveau1/cesar.py
+```
 Les fichiers chiffrés seront générés dans outputs/.
 
-Tests
-Pour exécuter les tests unitaires :
+✅ Tests
+Pour exécuter les tests unitaires :
 
-bash
-Copier le code
-pytest tests/
-Assurez-vous d’avoir installé pytest :
+```pytest tests/```
 
-bash
-Copier le code
-pip install pytest
-Installation
-Cloner le projet et installer les dépendances (si nécessaire) :
+⚙️ Installation
 
-bash
-Copier le code
+Cloner le projet et installer les dépendances (si nécessaire) :
+```
 git clone https://github.com/votre-utilisateur/Crypto-Python.git
 cd Crypto-Python
 pip install -r requirements.txt  # si vous ajoutez des dépendances
-License
+```
+📄 Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
-Auteur
-Votre Nom – Étudiant en cybersécurité – GitHub
+👨‍💻 Auteur
+MMaxouB – Étudiant en cybersécurité – GitHub
