@@ -39,7 +39,7 @@ Crypto-Python/
 - **Transposition** : Réarrangement des lettres du texte selon un motif défini.
 
 ### Niveau 3 : Chiffrements avancés
-- **XOR** : Chiffrement binaire par opération XOR avec une clé.
+- **XOR** : Chiffrement binaire par opération XOR avec une clé. (Le fichier chiffré peut contenir des caractères non lisibles, ce qui est normal pour un chiffrement XOR.)
 - **Block cipher simplifié** : Chiffrement par blocs inspiré d’AES (simplifié pour l’apprentissage).
 
 ---
