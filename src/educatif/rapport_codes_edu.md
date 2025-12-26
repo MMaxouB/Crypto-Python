@@ -63,7 +63,3 @@ Ce document présente un résumé « rapport » des principaux fichiers du proje
 - **Lignes plus techniques**:
   - Répétition de la clé via `i % len(key_bytes)` dans la boucle d’XOR.
   - Gestion du décodage UTF‑8 en sortie avec tentative de `.decode('utf-8')` et prise en charge des cas binaires.
-
----
-
-Ce rapport est fourni pour être inclus dans le dossier final du projet.
